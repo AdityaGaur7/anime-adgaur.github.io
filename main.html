@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Jost:ital,wght@0,200;0,300;0,600;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+
+    <header>
+      <a href="#" class="logo"><img src="img/logo2.png" /></a>
+      <ul class="navmenu" id="menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#cart">shop</a></li>
+        <li><a href="toy.html">Toys</a></li>
+        <li><a href="#news">New</a></li>
+        <li><a href="#cu">Contact Us</a></li>
+      </ul>
+      <div class="icon">
+        <a href="#"><i class="bx bx-search"></i></a>
+        <a href="#"><i class="bx bx-user"></i></a>
+        <a href="#"><i class="bx bx-cart"></i></a>
+
+        <a onclick="funct1()"><div class="bx bx-menu" id="menu-icon"></div></a>
+        <a onclick="funct2()"><i class="bx bx-down-arrow-alt" id="down-arrow"></i ></a>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <div class="text">
+        <h5>Anime Collection</h5>
+        <h1>Konoha <br />Collection</h1>
+        <p>Anime Fans Paradise</p>
+
+        <a href="#buy" class="btn"
+          >Shop now<i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+      <div class="photo" >
+        <img src="img/minato.jpeg" alt="minato" />
+      </div>
+    </section>
+    <section class="trending products" id="trend">
+      <div class="center-text">
+        <h1 id="cart" >Our trending <span>Products</span></h1>
+      </div>
+      <div class="prod2" id="buy">
+        <div class="products">
+          <div class="row">
+            <img src="img/3.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price" >
+            <h4>SASUKE'S CHIDORI</h4>
+            <p>$99 - $119</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/4.jpeg" alt="" />
+            <div class="product-text"></div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+           <!--<i class="bx bx-star"></i>-->
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price" >
+            <h4>SAKURA'S BLOSSOMS</h4>
+            <p>$59 - $99</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/boruto.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <!--<i class="bx bx-star"></i>-->
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>UZUMAKI BORUTO</h4>
+            <p>$69 - $99</p>
+          </div>
+        </div>
+      </div>
+      <div class="prod2">
+        <div class="products">
+          <div class="row">
+            <img src="img/choji.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>AKIMICHI CHOJI</h4>
+            <p>$79 - $109</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/shikamru.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>NARA SHIKAMARU</h4>
+            <p>$89 - $119</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/15.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>HATAKE KAKASHI</h4>
+            <p>$119 - $149</p>
+          </div>
+        </div>
+      </div>
+      <div class="prod2">
+        <div class="products">
+          <div class="row">
+            <img src="img/guy.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>MIGHT GUY</h4>
+            <p>$129 - $159</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/kiba.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>KIBA & AKAMARU</h4>
+            <p>$79 - $99</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/lee.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>ROCK LEE</h4>
+            <p>$89 - $109</p>
+          </div>
+        </div>
+      </div>
+      <div class="prod2">
+        <div class="products">
+          <div class="row">
+            <img src="img/obito.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>UCHIHA OBITO</h4>
+            <p>$99 - $119</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/tenten.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+           <i class="bx bx-star"></i> 
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>TENTEN</h4>
+            <p>$79 - $99</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/ino.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>INO YAMANAKA</h4>
+            <p>$99 - $129</p>
+          </div>
+        </div>
+      </div>
+      <div class="prod2">
+        <div class="products">
+          <div class="row">
+            <img src="img/12.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Sale</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>OROCHIMARU</h4>
+            <p>$99 - $119</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/13.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>UCHIHA ITACHI</h4>
+            <p>$119 - $169</p>
+          </div>
+        </div>
+        <div class="products">
+          <div class="row">
+            <img src="img/tsunade.jpeg" alt="" />
+            <div class="product-text">
+              <h5><samp>Hot</samp></h5>
+            </div>
+            <div class="heart-icon"><i class="bx bx-heart"></i></div>
+          </div>
+
+          <div class="ratting">
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>TSUNADE'S 106</h4>
+            <p>$99 - $106</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="client-review">
+        <div class="review">
+          <h3>Client <span>Review</span></h3>
+          <img src="img/profile.png" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            magnam eius explicabo, veniam, quia quasi facere obcaecati totam,
+            at<br />
+            temporibus fugit et quod impedit laborum eum minus dolorem. Soluta,
+            officiis?Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Quisquam rem dolorem ratione odit, est consequatur sapiente aliquid
+            aspernatur vel dicta.
+          </p>
+          <h2>Phalana dhimkhana</h2>
+          <p>Ex-CEO of lalten</p>
+        </div>
+      </div>
+    </section>
+    <section class="update news">
+      <div class="up-center-text" id="news">
+        <h2>New <span>Updates</span></h2>
+        <div class="update-cart">
+          <div class="cart">
+            <img src="img/madara.jpeg" alt="" />
+            <h1>31 feb 2023</h1>
+            <h4>Can't wait to get this exciting costumes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              ex sed esse corporis <br />recusandae officiis, libero sequi
+              magnam ea, corrupti iusto ad numquam aliquam minima consequatur
+              tempore sint suscipit non!
+            </p>
+            <h6>Continue Reading......</h6>
+          </div>
+          <div class="cart">
+            <img src="img/1.jpeg" alt="" />
+            <h1>31 Apr 2023</h1>
+            <h4>Can't wait to get this exciting costumes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              ex sed esse corporis<br />
+              recusandae officiis, libero sequi magnam ea, corrupti iusto ad
+              numquam aliquam minima consequatur tempore sint suscipit non!
+            </p>
+            <h6>Continue Reading......</h6>
+          </div>
+          <div class="cart">
+            <img src="img/h.jpeg" alt="" style="height: 57%" />
+            <h1>31 June 2023</h1>
+            <h4>Can't wait to get this exciting costumes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              ex sed esse corporis<br />
+              recusandae officiis, libero sequi magnam ea, corrupti iusto ad
+              numquam aliquam minima consequatur tempore sint suscipit non!
+            </p>
+            <h6>Continue Reading......</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="contact-info">
+        <div class="first-info" id="cu">
+          <p>KONOHA VILLAGE <br />7408677090 <br />adgaur@gmail.com</p>
+          <div class="social-icon">
+            <a href="https://twitter.com/Aditya7112027"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/__aditya_gaur_090/"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/@codaditya/videos"
+              ><i class="bx bxl-youtube"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/aditya-gaur-mmmut"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/AdityaGaur7"
+              ><i class="bx bxl-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="second-info">
+          <h4>Support</h4>
+          <p>Contact us</p>
+          <p>About page</p>
+          <p>Size Guide</p>
+          <p>Shopping & Returns</p>
+          <p>Privacy</p>
+        </div>
+        <div class="third-info">
+          <h4>Shop</h4>
+          <p>Anime's Shopping</p>
+          <p>Konoha Kart</p>
+          <p>Naruto Fan</p>
+          <p>LOVE U **</p>
+          <p></p>
+        </div>
+        <div class="fourth-info">
+          <h4>Love & Support</h4>
+          <p>Give your review</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur<br />
+            adipisicing elit. Voluptas, minima.
+          </p>
+          <p>Subscribe to my channel</p>
+          <p>Like</p>
+          <p></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="end">
+      <p>Copyright @2022.All Rights Reserved.Designed by Aditya Gaur.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
