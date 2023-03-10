@@ -91,6 +91,7 @@ img {
 .photo img:hover {
   transform: scale(1.2);
   transition: 0.9s;
+  filter:hue-rotate(90deg);
 }
 .text {
   margin-right: 20vw;
@@ -167,7 +168,7 @@ span {
 }
 .row img:hover {
   transform: scale(0.8);
-  filter:contrast(200%);
+  filter:saturate(30%);
 }
 .product-text h5 {
   position: absolute;
